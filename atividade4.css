@@ -1,0 +1,234 @@
+@font-face{
+    font-family: fonte1;
+    src:url(LibreBaskerville-Regular.ttf);
+}
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #C5DBF2;
+    font-family: fonte1;
+}
+header{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+#menu_superior{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+}
+#menu_superior a{
+    width: 7.5%;
+    height: 45px;
+    margin-left: 15px;
+    margin-right: 8px;
+    margin-top: 5px;
+    float: left;
+    color: #000000;
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+#menu_superior a:hover{
+    background-color: #2e2e2e59;
+    border-radius: 50px;
+    transition: 1s all;
+}
+#logo{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 43%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    background-image: url(figura1.png);
+}
+#logo2{
+    position: absolute;
+    width: 101px;
+    height: 38px;
+    left: 60%;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    background-image: url(figura4.png);
+}
+#button{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 70%;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+#button a{
+    position: relative;
+    height: 50px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 15px;
+    float: left;
+    color: #000000;
+    font-size: 21px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#bt1{
+    border: 1px solid #000;
+}
+#bt2{
+    background-color: #007C89;
+    color: #fff;
+}
+main{
+    min-height: 100vh;
+}
+#menumed{
+    position: relative;
+    width: 70%;
+    min-height: 50vh;
+    top: 30vh;
+    margin-left: 15%;
+}
+#tit{
+    position:  absolute;
+    width: 550px;
+    height: 25vh;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+}
+#tit2{
+    position:  absolute;
+    width: 550px;
+    height: 12vh;
+    top: 53%;
+    margin-left: 1vh;
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 25px;
+}
+#saibam2{
+    position:  absolute;
+    width: 200px;
+    height: 55px;
+    top: 80%;
+    background-color: #007C89;
+}
+#saibam2 a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#saibam2 a:hover{
+    color: #fff;
+    background-color: #2e2e2e59;
+    transition: 1s all;
+}
+#basefundo{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    background-color: #F7D5C5;
+    border: 2px solid #000;
+    border-radius: 10px;
+    left: 50%;
+}
+#img2{
+    position: relative;
+    background-image: url(tres_pontinhos.png);
+    background-repeat: no-repeat;
+    left: 5px;
+    top: 5px;
+    width: 30px;
+    height: 20px;
+}
+#img3{
+    position: relative;
+    background-image: url(carrinho.png);
+    background-repeat: no-repeat;
+    left: 89%;
+    top: -5%;
+    width: 50px;
+    height: 41px;  
+}
+#basefundo p{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+    color: #F97454;
+}
+#img4{
+    position: relative;
+    background-image: url(figura2.png);
+    background-repeat: no-repeat;
+    left: 7%;
+    top: 10%;
+    width: 230px;
+    height: 207px;  
+}
+
+
+#basefundo2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    box-shadow: 6px 6px #000000;
+    border-radius: 10px;
+    left: 73%;
+    bottom: 20%;
+}
+#basefundo2 p{
+    margin: 10px;
+    font-size: 18px;
+}
+#linha1{
+    height: 2px;
+    color: #000;
+    background-color: #000;
+    border-width:0;
+}
+#img1{
+    position: absolute;
+    background-image: url(figua3.png);
+    width: 250px;
+    height: 150px;
+    left: 25;
+}
+#buttoncheck{
+    position: relative;
+    width: 70%;
+    height: 50px;
+    top: 65%;
+    left: 13%;
+    background-color: #357C80;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;  
+}
+#buttoncheck a:hover{
+    color: #2e2e2e59;;
+    transition: 1s all;
+}
